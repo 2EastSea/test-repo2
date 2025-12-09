@@ -6,7 +6,10 @@ second = input("Enter the second number: ")
 num1 = int(first)
 num2 = int(second)
 
-result = num1 - num2
+sum = num1 +  num2
+diff = num1 - num2
+mul = num1 * num2
 
-print("Difference:", result)
-
+print("Sum: ", sum)
+print("Difference: ", diff)
+print("Product: ", mul)
